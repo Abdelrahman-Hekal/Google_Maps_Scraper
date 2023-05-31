@@ -1,4 +1,3 @@
-# coding: utf8
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService 
@@ -337,7 +336,8 @@ def scrape_Google_Maps(driver, keywords, output1, limit):
                 except:
                     pass
                 # appending the output to the datafame       
-                df = df.append([details.copy()])
+                #df = df.append([details.copy()])
+                df = pd.concat([df, pd.DataFrame([details.copy()])], ignore_index=True)
         except Exception as err:
             print(f'The below error occurred while scraping: {name}')
             print(str(err))

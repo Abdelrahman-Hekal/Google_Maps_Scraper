@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6d334253-0b6d-4118-96ef-5949391c03ca</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Google_Maps_Scraper_v1.py</StartupFile>
+    <StartupFile>Google_Maps_Scraper_v1.1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Google_Maps_Scraper_v1.py" />
+    <Compile Include="Google_Maps_Scraper_v1.1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

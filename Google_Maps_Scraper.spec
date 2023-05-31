@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['D:\\Hekal\\Personal\\Freelancing\\Google_Maps_Scraper\\Google_Maps_Scraper_v1.py'],
+    ['D:\\Hekal\\Personal\\Freelancing\\Google_Maps_Scraper\\Google_Maps_Scraper.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='Google_Maps_Scraper_v1',
+    name='Google_Maps_Scraper',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
